@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import api from "../api/axios.tx";
+import api from "../api/axios.ts";
 
 export default function ActivityCard() {
   const [status, setStatus] = useState("Waiting...");
